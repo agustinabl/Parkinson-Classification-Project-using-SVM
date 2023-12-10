@@ -1,0 +1,11 @@
+Parkinson Classification Project using Support Vector Machines (SVM)
+
+In this project I used a Support Vector Machine model (SVM) to classify subjects into two categories:
+
+1 --> has Parkinson Disease
+0 --> doesn't have Parkinson Disease
+Requirements: NumPy, Pandas, and Scikit-Learn
+
+The dataset containing vocal measurements and information on whether the person has Parkinson's or not was taken from: Little, M. A., McSharry, P. E., Hunter, E. J., Spielman, J., & Ramig, L. O. (2009). Suitability of dysphonia measurements for telemonitoring of Parkinson's disease. IEEE transactions on bio-medical engineering, 56(4), 1015. https://doi.org/10.1109/TBME.2008.2005954
+
+Workfow: 1- Import dependencies 2- Data collection from the dataset in .CSV 3- Data analysis and preprocessing (separate feat and target variable, data standarization) 4- Model training using SVM 5- Model's performance evaluation on both training and testing datausing accuracy metric 6- Creation of predictive system where the user can input vocal measurements to obtain a prediction of wether the person has Parkinson Disease or not
