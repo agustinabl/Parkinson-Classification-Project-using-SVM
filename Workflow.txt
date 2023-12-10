@@ -1,0 +1,45 @@
+To create the model: 
+    Get Parkinson's data 
+    Pre process data
+    Split the dataset in 2 training test groups
+    Support vector machine classifier
+
+
+Then with the trained model:
+    new data --> model --> prediction Prakinson vs healthy 
+
+
+Data attributes:
+    name - ASCII subject name and recording number
+    status - The health status of the subject (one) - Parkinson's, (zero) - healthy
+
+    Measures of variation in fundamental frequency:
+        MDVP:Fo(Hz) - Average vocal fundamental frequency
+        MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
+        MDVP:Flo(Hz) - Minimum vocal fundamental frequency
+        MDVP:Jitter(%)
+        MDVP:Jitter(Abs)
+        MDVP:RAP --> relative aplitude perturbation
+        MDVP:PPQ --> period perturbation quotient
+        Jitter:DDP --> average abs difference of difference between cycles, divided by the average period
+    
+    Measures of variations in amplitude
+        MDVP:Shimmer
+        MDVP:Shimmer(dB)
+        Shimmer:APQ3 --> 3 point amplitude perturbation quotient 
+        Shimmer:APQ5 --> 5 point amplitude perturbation quotient 
+        MDVP:APQ 
+        Shimmer:DDA 
+    
+    Measures of the ratio of noise to tonal components in the voice
+        NHR --> Noise to harmonics
+        HNR --> harmonics to ratio
+
+    Nonlinear dynamical complexity measures
+        RPDE --> recurrence period density
+        D2 --> correlation dimension
+        
+     Signal fractal scaling exponent --> DFA (detrended fluctuation analysis)
+     Three nonlinear measures of fundamental frequency variation --> spread1,spread2, PPE (pitch period entropy) 
+
+
