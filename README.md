@@ -28,4 +28,4 @@ The dataset, encompassing vocal measurements and Parkinson's disease information
     - User input for vocal measurements to predict Parkinson Disease status
 
 
-## Feel free to explore the code 🚀
+## Feel free to explore the code 🔍
