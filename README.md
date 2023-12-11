@@ -1,4 +1,4 @@
-# Parkinson Classification Project using Support Vector Machines (SVM) 🧠🤖
+# Parkinson Classification Project using Support Vector Machines (SVM) 🧠
 
 In this project, a Support Vector Machine model (SVM) is employed to classify subjects into two categories:
 
@@ -27,31 +27,5 @@ The dataset, encompassing vocal measurements and Parkinson's disease information
 6. **Creation of Predictive System**
     - User input for vocal measurements to predict Parkinson Disease status
 
-## How to Use 📋
-1. Install required libraries:
 
-    ```bash
-    pip install numpy pandas scikit-learn
-    ```
-
-2. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/parkinson-classification.git
-    ```
-
-3. Navigate to the project directory:
-
-    ```bash
-    cd parkinson-classification
-    ```
-
-4. Run the main script:
-
-    ```bash
-    python main.py
-    ```
-
-    Follow the prompts to input vocal measurements and obtain predictions.
-
-Feel free to explore the code 🚀
+## Feel free to explore the code 🚀
